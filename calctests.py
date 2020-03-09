@@ -66,7 +66,7 @@ class TestStringMethods(unittest.TestCase):
 
     def tangent(self):
         c = Calculator()
-        self.assertEqual(c.tagent(math.degree((45)), 1)
+        self.assertEqual(c.tagent(math.degree((45)), 1))
 
     def invSin(self):
         c = Calculator()
@@ -98,11 +98,11 @@ class TestStringMethods(unittest.TestCase):
 
     def factorial(self):
         c = Calculator()
-        self.assertEqual(c.factorial(math.facotrial(4), 24)
+        self.assertEqual(c.factorial(math.facotrial(4), 24))
 
     def log_base_10(self):
         c = Calculator()
-        self.assertEqual(c.log_base_10(math.log10(100), 2)
+        self.assertEqual(c.log_base_10(math.log10(100), 2))
 
     def inv_base_10(self):
         c = Calculator()
